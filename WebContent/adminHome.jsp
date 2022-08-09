@@ -254,7 +254,7 @@
       <%try
       {
     	  Connection con=ConnectionProvider.getCon();
-      Statement st=con.CreateStatment();
+      Statement st=con.CreateStatement();
       ResultSet rs=st.executeQuery("select *from student");
       while(rs.next())
       {   %>
